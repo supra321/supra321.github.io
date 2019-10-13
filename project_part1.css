@@ -52,13 +52,18 @@ header.startup h1 {
 	color: red;
 	font-size: 120%;
 }
-.c{
-	width: 50%;
-  	height: 50%;
-  	background-position: center;
-  	margin: auto;
+.cosl{
+    margin: auto;
+    width: 75%;
+  	height: auto;
 }
-body{
-	background-image: url("wsx.jpg");
-  	background-size: cover;
+.nvbr{
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: blue;
+}
+.bck{
+  background: linear-gradient(to top,red,yellow);
 }
