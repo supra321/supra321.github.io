@@ -67,9 +67,6 @@ header.startup h1 {
 .bck{
   background: linear-gradient(to top,red,yellow);
 }
-#mc-embedded-subscribe{
-  padding: 8px 8px 8px 8px;
-  border-style: none;
-  font-family: 'Fira Sans', sans-serif;
-  color: rgba(0,0,0,0.9);
+.ijk{
+   text-align: center;
 }
