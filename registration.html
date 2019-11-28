@@ -8,30 +8,37 @@
 	<link href="project_part1.css" rel="stylesheet">
 </head>
 <body class="a">  
-	<form method="GET">
-		First Name: <input type="text" name="firstname"><br>
-		Last Name: <input type="text" name="lastname"><br>
-		Email: <input type="Email" name="email" required><br>
-		Password: <input type="Password" name="passcode" minlength="10"><br>  
-		Aniversary:<input type="date"><br>
-		Gender:<br>
-			<input type="radio" name="Gender" value="male">Male<br>
-			<input type="radio" name="Gender" value="female">Women<br>
-			<input type="radio" name="Gender" value="others" checked>Others<br>
-		Places of Intrest:<br>
-			<input type="checkbox" name="bombay">Bombay<br>
-			<input type="checkbox" name="NCR">NCR<br>
-			<input type="checkbox" name="calcutta">Calcutta<br>
-			<input type="checkbox" name="madras">Madras<br>
-		Mode of transport:<br>
+	<form method="POST">
+		<br><br><br>
+		First Name: <input type="text" name="firstname"><br><br>
+		Last Name: <input type="text" name="lastname"><br><br>
+		Email:  <input type="Email" name="email" required><br><br>
+		Password: <input type="Password" name="passcode" minlength="10"><br><br>
+		Date of Arrival: <input type="date"><br><br>
+		Date of Departure: <input type="date"><br><br>
+		Gender: 
+			<select>
+			<option  name="Gender" value="male">Male</option><br>
+			<option  name="Gender" value="female">Female</option><br>
+			<option  name="Gender" value="others" checked>Others</option><br>
+			</select><br><br>
+		Places of Intrest: 
+		<select>
+			<option name="bombay">Mumbai</option><br>
+			<option name="NCR">New Delhi</option><br>
+			<option name="calcutta">Kolkata</option><br>
+			<option name="madras">Chennai</option><br>
+			<option name="murshidabad">Murshidabad</option>
+		</select><br><br>
+		Mode of transport:
 			<select name="modeoftransport">
 				<option value="Train">Train</option>
 				<option value="Bus">Bus</option>
 				<option value="Plane">Plane</option>
-			</select><br>
+			</select><br><br>
 		<input type="button" /*type="submit"*/ class="btn btn-primary" value="Click Here to Submit" data-toggle="modal" data-target="#exampleModal">
 		<input type="reset" type="button" class="btn btn-primary">
-	</form>
+	</form><br>
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
