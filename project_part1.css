@@ -45,10 +45,17 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
+.a{
+  text-align: center;
+  background-image: url("daniil-vnoutchkov-FwK07kj-mTc-unsplash.jpg");
+  background-size: cover;
+  color: red;
+  font-size: 120%;
+}
 .cosl{
     margin: auto;
     width: 75%;
-  	height: auto;
+    height: auto;
 }
 .nvbr{
   z-index: 1;
@@ -59,14 +66,4 @@ header.startup h1 {
 }
 .bck{
   background: linear-gradient(to top,red,yellow);
-}
-.ijk{
-   text-align: center;
-}
-.a{
-  text-align: center;
-  background-image: url("tgb.jpg");
-  color: orange;
-  font-size: 120%;
-  background-size: cover;
 }
